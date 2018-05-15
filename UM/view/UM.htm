@@ -1,0 +1,55 @@
+<script spec="view" type="application/json">
+  {
+    "name" : "UM",
+    "type" : "page",
+    "controller" : "UMC",
+    "impl" : "Trillo.FlexGridView",
+    "nextViewName" : "UserList",
+    "nextViewSpecs" : [
+      {
+        "name" : "UserList"
+      }]
+  }
+</script>
+
+<div class="trillo-application js-application" nm="Contact">
+  <div class="js-flex-grid" style="height:100%">
+    <div nm="r1" class="js-flex-row" flex-height="false" min-height="55" style="z-index: 1003">
+      <!--#include file="header.htm" -->
+    </div>
+    <div nm="r2" class="js-flex-row">
+      <div class="js-flex-col left-column trillo-hidden js-container" 
+        min-width="240" max-width="240" nm="column-container" hide-exp="<= 767" popover-class="trillo-popover-content" 
+        data-trigger="#left-nav-trigger">
+      </div>
+      <div class="js-flex-col" min-width="300">
+        <!--#include file="titlebar-n-toolbar.htm" -->
+        <div nm="tab-container" min-height="50" class="tab-container js-container" flex-height="false">
+        </div>
+        <div class="js-flex-row main-content-area js-container" min-height="100" nm="main-container">
+        </div>
+      </div>
+    </div>
+  </div>
+  <ul data-trigger="#header-nav-popover-tigger" data-target="#header-nav-popover-target" 
+     class="dropdown-menu js-popup-menu">
+    <li class="screen-name-b js-menu-item trillo-on-valid-role nav-item-separator nav-item-small">
+      <a nm="myProfile" href="#" title="Click to change profile" class="screen-name">
+        <span class="js-screenname">{{{userFullName}}}</span>
+      </a>
+    </li>
+    <li class="logout-b js-menu-item trillo-on-valid-role nav-item-small">
+      <a nm="changeMyPassword" href="#">
+        Change Password
+      </a>
+    </li>
+    <li class="logout-b js-menu-item trillo-on-valid-role nav-item-small">
+      <a nm="_logout" href="#" class="screen-name">
+        Logout
+      </a>
+    </li>
+  </ul>
+</div>
+<!--#include file="misc.htm" -->
+<!--#include file="alert.htm" -->
+<!--#include file="modal.htm" -->

@@ -1,0 +1,48 @@
+{
+  "deployParameters" : {
+    "aws" : {
+      "Parameters" : [
+        {
+          "ParameterKey" : "PrivateSubnets",
+          "ParameterValue" : "subnet-b533fcdd,subnet-6e020115"
+        },
+        {
+          "ParameterKey" : "PrivateALBSecurityGroup",
+          "ParameterValue" : "sg-83404eeb"
+        },
+        {
+          "ParameterKey" : "VPC",
+          "ParameterValue" : "vpc-97eb2fff"
+        },
+        {
+          "ParameterKey" : "DockerContainerPort",
+          "ParameterValue" : "5001"
+        },
+        {
+          "ParameterKey" : "Cluster",
+          "ParameterValue" : "trillo-rt"
+        },
+        {
+          "ParameterKey" : "DockerImage",
+          "ParameterValue" : "trillo/sawal-api-service"
+        },
+        {
+          "ParameterKey" : "DesiredCount",
+          "ParameterValue" : "2"
+        },
+        {
+          "ParameterKey" : "DataServiceUrl",
+          "ParameterValue" : "internal-trillo-rt-PrivateLoadBalancer-2105478168.us-east-2.elb.amazonaws.com"
+        }
+      ]
+    }
+  },
+  "docUrl" : "https://www.trillo.io/_model/api-ds/TodoApp/TaskList/task",
+  "properties" : {
+    "clientIdForContainer" : "user123",
+    "clientSecretForContainer" : "user123",
+    "containerUrl" : "https://rt.trillo.io/ds/page/TodoApp/TaskList"
+  },
+  "type" : "trilloMicroService",
+  "useOAuth" : false
+}

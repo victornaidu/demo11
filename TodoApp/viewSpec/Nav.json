@@ -1,0 +1,20 @@
+{
+  "name" : "Nav",
+  "type" : "nav",
+  "hierSpecs" : [
+    {
+      "name" : "home_",
+      "displayName" : "Overview",
+      "actionSpec" : { },
+      "type" : "menuItem"
+    },
+    {
+      "name" : "TaskList",
+      "displayName" : "My Tasks",
+      "actionSpec" : {
+        "type" : "view"
+      },
+      "type" : "menuItem"
+    }
+  ]
+}

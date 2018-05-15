@@ -1,0 +1,21 @@
+{
+  "name" : "TaskList",
+  "type" : "table",
+  "fieldSpecs" : [
+    {
+      "name" : "title",
+      "displayName" : "Title",
+      "type" : "readonly"
+    },
+    {
+      "name" : "description",
+      "displayName" : "Description",
+      "type" : "readonly"
+    },
+    {
+      "name" : "edit",
+      "displayName" : "Edit",
+      "type" : "button"
+    }
+  ]
+}

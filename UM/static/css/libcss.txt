@@ -1,0 +1,6 @@
+/lib/css/bootstrap-4/bootstrap.min.css
+/lib/css/perfect-scrollbar.css
+/lib/css/font-awesome-4.6.3_2/css/font-awesome.css
+/css/2.0/trillo.css
+/css/2.0/trillo-theme.css
+/css/2.0/trillo-bootstrap4.css

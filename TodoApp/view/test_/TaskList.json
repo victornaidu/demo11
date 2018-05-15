@@ -1,0 +1,12 @@
+[
+  {
+    "title" : "Create View",
+    "description" : "Create a Table View and populate with API data.",
+    "edit" : "edit1"
+  },
+  {
+    "title" : "Declare Data-Binding",
+    "description" : "Bind Table to RESTful API (Trillo DS).",
+    "edit" : "edit2"
+  }
+]

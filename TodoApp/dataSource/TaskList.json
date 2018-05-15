@@ -1,0 +1,6 @@
+{
+  "name" : "TaskList",
+  "type" : "mysql",
+  "useDefault" : true,
+  "properties" : { }
+}

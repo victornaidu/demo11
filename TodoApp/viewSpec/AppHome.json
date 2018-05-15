@@ -1,0 +1,7 @@
+{
+  "name" : "AppHome",
+  "type" : "html",
+  "css" : {
+    "padding" : "20px"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name" : "EditTask",
+  "type" : "form",
+  "displayName" : "Edit Task",
+  "fieldSpecs" : [
+    {
+      "name" : "title",
+      "displayName" : "Title",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "description",
+      "displayName" : "Description",
+      "editable" : true,
+      "type" : "text"
+    },
+    {
+      "name" : "cancel",
+      "displayName" : "Cancel",
+      "editable" : true,
+      "type" : "button"
+    },
+    {
+      "name" : "submit",
+      "displayName" : "Submit",
+      "editable" : true,
+      "type" : "submit"
+    }
+  ]
+}
