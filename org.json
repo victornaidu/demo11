@@ -1,0 +1,15 @@
+{
+  "authChoice" : "2",
+  "gitConnected" : false,
+  "logos" : {
+    "logoStamp" : "/demo11/shared/static/img/logo-stamp.png"
+  },
+  "name" : "demo11",
+  "rtChoice" : "default",
+  "rtServerUrlDev" : "https://rt.trillo.io",
+  "rtServerUrlInt" : "https://rt.trillo.io",
+  "rtServerUrlProduction" : "https://rt.trillo.io",
+  "rtServerUrlQA" : "https://rt.trillo.io",
+  "rtServerUrlStaging" : "https://rt.trillo.io",
+  "rtUrl" : "https://rt.trillo.io"
+}
