@@ -1,9 +1,6 @@
 {
   "name" : "TaskList",
   "type" : "table",
-  "apiAdaptor" : {
-    "serviceUrl" : "/ds/objectsbyquery/TodoApp/TaskList/task?query=dfs"
-  },
   "fieldSpecs" : [
     {
       "name" : "title",
