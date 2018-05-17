@@ -8,39 +8,37 @@
 
   var EditTaskC = TodoApp.EditTaskC.prototype;
   var SharedC = Shared.SharedC.prototype;
-  var Controller = Trillo.Controller.prototype;
-
 
   EditTaskC.handleAction = function(actionName, selectedObj, $e, targetController) {
     if (actionName === "submit") {
       this.doSubmitForm(selectedObj);
-      this.close();
-    }
-    if (actionName === "cancel") {
-      this.close();
       return true;
+    } else if (actionName === "cancel") {
+      this.close();
+      return false;
+    } else {
+      console.log("Action: " + actionName);
     }
-    //return SharedC.handleAction.call(this, actionName, selectedObj, $e, targetController);
-    return Controller.handleAction.call(this, actionName, selectedObj);
+    return SharedC.handleAction.call(this, actionName, selectedObj, $e, targetController);
   };
 
   EditTaskC.doSubmitForm = function(selectedObj) {
     var postData = Trillo.stringify(this.getData());
+    console.log("Will post: " + postData);
 
     $.ajax({
-      url: "https://rt.trillo.io/ds/update/TodoApp/TaskList/task",
+      url: "/ds/save/TodoApp/TaskList/task",
       type: 'post',
       data: postData,
       contentType: "application/json"
     }).done(function() {
       // normally we will call framework API to display a message to the user.
-      console.log("Form submitted successfully");
-      return true;
+      console.log("Form submitted successfully")
     });
-  };
+
+  }
 
   EditTaskC.postViewShown = function(view) {
     SharedC.postViewShown.call(this, view);
   };
-  return true;
 })();
