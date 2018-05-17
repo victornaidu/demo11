@@ -1,6 +1,7 @@
 [
   {
     "appTemplate" : "webapp",
+    "defaultPage" : true,
     "displayName" : "Task Manager App",
     "linkedApp" : "shared",
     "metaDataPubliclyViewable" : false,

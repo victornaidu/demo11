@@ -12,10 +12,10 @@
   EditTaskC.handleAction = function(actionName, selectedObj, $e, targetController) {
     if (actionName === "submit") {
       this.doSubmitForm(selectedObj);
-      return true;
+      //this.close();
+      return selectedObj;
     } else if (actionName === "cancel") {
       this.close();
-      return false;
     } else {
       console.log("Action: " + actionName);
     }
@@ -33,7 +33,8 @@
       contentType: "application/json"
     }).done(function() {
       // normally we will call framework API to display a message to the user.
-      console.log("Form submitted successfully")
+      alert("Form submitted successfully")
+      return true;
     });
 
   }

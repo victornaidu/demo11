@@ -12,7 +12,7 @@
   TaskListC.handleAction = function(actionName, selectedObj, $e, targetController) {
     if (actionName === "edit") {
       this.showForm(selectedObj);
-      return true;
+      return this.getData();
     }
     return SharedC.handleAction.call(this, actionName, selectedObj, $e, targetController);
   };
