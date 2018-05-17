@@ -20,11 +20,10 @@
   TaskListC.showForm = function showForm(selectedObj) {
     this.showView({
       name: "EditTask",
-      container: "trillo-dialog2-container",
+      container: 'trillo-dialog2-container',
       data: selectedObj
     });
   };
-
   TaskListC.postViewShown = function(view) {
     SharedC.postViewShown.call(this, view);
   };
