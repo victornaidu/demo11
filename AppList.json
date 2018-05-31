@@ -1,7 +1,37 @@
 [
   {
     "appTemplate" : "webapp",
-    "defaultPage" : true,
+    "displayName" : "SampleApp132",
+    "linkedApp" : "shared",
+    "metaDataPubliclyViewable" : false,
+    "multiBranch" : false,
+    "name" : "SampleApp132",
+    "requiredRoles" : "user",
+    "requiresLogin" : true,
+    "trilloVersion" : "2.0",
+    "usingEnumsCatalog" : true,
+    "usingStringFiles" : true,
+    "usingViewSpecs" : true
+  },
+  {
+    "appTemplate" : "webapp",
+    "description" : "Task2Do",
+    "displayName" : "Task2Do",
+    "htmlHeadTitle" : "Task2Do",
+    "keywords" : "Task2Do",
+    "linkedApp" : "shared",
+    "metaDataPubliclyViewable" : false,
+    "multiBranch" : false,
+    "name" : "Task2Do",
+    "requiredRoles" : "user",
+    "requiresLogin" : true,
+    "trilloVersion" : "2.0",
+    "usingEnumsCatalog" : true,
+    "usingStringFiles" : true,
+    "usingViewSpecs" : true
+  },
+  {
+    "appTemplate" : "webapp",
     "displayName" : "Task Manager App",
     "linkedApp" : "shared",
     "metaDataPubliclyViewable" : false,
@@ -10,6 +40,7 @@
     "requiredRoles" : "user",
     "requiresLogin" : true,
     "trilloVersion" : "2.0",
+    "useTestData" : true,
     "usingEnumsCatalog" : true,
     "usingStringFiles" : true,
     "usingViewSpecs" : true
@@ -39,9 +70,6 @@
     "linkedApp" : "shared",
     "multiBranch" : true,
     "name" : "auth",
-    "props" : {
-      "authChoice" : "2"
-    },
     "trilloVersion" : "1.0",
     "usingEnumsCatalog" : true,
     "usingStringFiles" : true,
