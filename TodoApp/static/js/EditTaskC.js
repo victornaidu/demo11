@@ -12,12 +12,7 @@
   EditTaskC.handleAction = function(actionName, selectedObj, $e, targetController) {
     if (actionName === "submit") {
       this.doSubmitForm(selectedObj);
-      //this.close();
-      return selectedObj;
-    } else if (actionName === "cancel") {
-      this.close();
-    } else {
-      console.log("Action: " + actionName);
+      return true;
     }
     return SharedC.handleAction.call(this, actionName, selectedObj, $e, targetController);
   };
@@ -27,13 +22,13 @@
     console.log("Will post: " + postData);
 
     $.ajax({
-      url: "/ds/save/TodoApp/TaskList/task",
+      url: "/ds/update/TodoApp/TaskList/task",
       type: 'post',
       data: postData,
       contentType: "application/json"
     }).done(function() {
       // normally we will call framework API to display a message to the user.
-      alert("Form submitted successfully")
+      alert("Form submitted successfully");
       return true;
     });
 

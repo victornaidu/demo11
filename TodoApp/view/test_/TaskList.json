@@ -1,82 +1,12 @@
 [
   {
-    "createdAt" : 1526369583383,
-    "uid" : "task.1",
-    "description" : "Create a Table View and populate with API data.",
-    "id" : 1,
     "title" : "Create View",
-    "updatedAt" : 1526369583383
+    "description" : "Create a Table View and populate with API data.",
+    "edit" : "edit1"
   },
   {
-    "createdAt" : 1526369583383,
-    "uid" : "task.2",
-    "description" : "Bind Table to RESTful API (Trillo DS).",
-    "id" : 2,
     "title" : "Declare Data-Binding",
-    "updatedAt" : 1526369583383
-  },
-  {
-    "createdAt" : 1526520164087,
-    "uid" : "task.3",
-    "description" : "Create a Table View and populate with dfAPI data.",
-    "id" : 3,
-    "title" : "Create Viewdf",
-    "updatedAt" : 1526520164087
-  },
-  {
-    "createdAt" : 1526520166778,
-    "uid" : "task.4",
-    "description" : "Create a Table View and populate with dfAPI data.",
-    "id" : 4,
-    "title" : "Create Viewdf",
-    "updatedAt" : 1526520166778
-  },
-  {
-    "createdAt" : 1526520200807,
-    "uid" : "task.5",
-    "description" : "Create a Table View and populate with API data.",
-    "id" : 5,
-    "title" : "Create Viewdsfs",
-    "updatedAt" : 1526520200807
-  },
-  {
-    "createdAt" : 1526520219209,
-    "uid" : "task.6",
-    "description" : "Create a Table View and populate with API data.",
-    "id" : 6,
-    "title" : "Create Viewdsfs",
-    "updatedAt" : 1526520219209
-  },
-  {
-    "createdAt" : 1526568136389,
-    "uid" : "task.7",
-    "description" : "Create a Table View and populate with API data.",
-    "id" : 7,
-    "title" : "Create Viewfd",
-    "updatedAt" : 1526568136389
-  },
-  {
-    "createdAt" : 1526568139135,
-    "uid" : "task.8",
-    "description" : "Create a Table View and populate with API data.",
-    "id" : 8,
-    "title" : "Create Viewfd",
-    "updatedAt" : 1526568139135
-  },
-  {
-    "createdAt" : 1526568149405,
-    "uid" : "task.9",
     "description" : "Bind Table to RESTful API (Trillo DS).",
-    "id" : 9,
-    "title" : "Declare Data-Bindingfd",
-    "updatedAt" : 1526568149405
-  },
-  {
-    "createdAt" : 1526569205704,
-    "uid" : "task.10",
-    "description" : "Create a Table View and populate with API data.",
-    "id" : 10,
-    "title" : "Create Viewdfs",
-    "updatedAt" : 1526569205704
+    "edit" : "edit2"
   }
 ]

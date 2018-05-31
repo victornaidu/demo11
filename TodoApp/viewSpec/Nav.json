@@ -3,17 +3,17 @@
   "type" : "nav",
   "hierSpecs" : [
     {
-      "name" : "home_",
-      "displayName" : "Overview",
-      "actionSpec" : { },
-      "type" : "menuItem"
-    },
-    {
       "name" : "TaskList",
       "displayName" : "My Tasks",
       "actionSpec" : {
         "type" : "view"
       },
+      "type" : "menuItem"
+    },
+    {
+      "name" : "home_",
+      "displayName" : "About",
+      "actionSpec" : { },
       "type" : "menuItem"
     }
   ]
